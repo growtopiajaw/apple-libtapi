@@ -1,0 +1,8 @@
+/root/tmp/include/tapi/APIVersion.h
+/root/tmp/include/tapi/Defines.h
+/root/tmp/include/tapi/LinkerInterfaceFile.h
+/root/tmp/include/tapi/PackedVersion32.h
+/root/tmp/include/tapi/Symbol.h
+/root/tmp/include/tapi/tapi.h
+/root/tmp/include/tapi/Version.h
+/root/tmp/include/tapi/Version.inc

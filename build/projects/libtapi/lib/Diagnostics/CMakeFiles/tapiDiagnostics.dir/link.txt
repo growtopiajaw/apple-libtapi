@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libtapiDiagnostics.a CMakeFiles/tapiDiagnostics.dir/Diagnostics.cpp.o
+/usr/bin/ranlib ../../../../lib/libtapiDiagnostics.a

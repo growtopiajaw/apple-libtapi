@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libLLVMExegesisPowerPC.a CMakeFiles/LLVMExegesisPowerPC.dir/Target.cpp.o
+/usr/bin/ranlib ../../../../lib/libLLVMExegesisPowerPC.a

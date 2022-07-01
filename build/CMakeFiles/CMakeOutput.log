@@ -1,0 +1,2208 @@
+The system is: Linux - 5.10.109+ - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/apple-libtapi/build/CMakeFiles/3.18.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -I;/root/apple-libtapi/build/../src/llvm/projects/clang/include;-I;/root/apple-libtapi/build/projects/clang/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/apple-libtapi/build/CMakeFiles/3.18.4/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Debian 10.2.1-6) 10.2.1 20210110
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1ab31/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ab31.dir/build.make CMakeFiles/cmTC_1ab31.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/cc1ToVb3.s
+GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/10/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 1f803793fa2e3418c492b25e7d3eac2f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o /tmp/cc1ToVb3.s
+GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_1ab31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ab31.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -o cmTC_1ab31 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ab31' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2jyOeq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1ab31 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ab31' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_1ab31/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ab31.dir/build.make CMakeFiles/cmTC_1ab31.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/cc1ToVb3.s]
+  ignore line: [GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 1f803793fa2e3418c492b25e7d3eac2f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o /tmp/cc1ToVb3.s]
+  ignore line: [GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_1ab31]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ab31.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -o cmTC_1ab31 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ab31' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2jyOeq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1ab31 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2jyOeq.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1ab31] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+    arg [CMakeFiles/cmTC_1ab31.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5cb15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5cb15.dir/build.make CMakeFiles/cmTC_5cb15.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include    -v -o CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -o /tmp/cccCjBHS.s
+GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/root/apple-libtapi/build/projects/clang/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /root/apple-libtapi/build/../src/llvm/projects/clang/include
+ /usr/include/c++/10
+ /usr/include/x86_64-linux-gnu/c++/10
+ /usr/include/c++/10/backward
+ /usr/lib/gcc/x86_64-linux-gnu/10/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.1 20210110, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 048fcaee3460a99eb0d68522358720e1
+COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include --64 -o CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o /tmp/cccCjBHS.s
+GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_5cb15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cb15.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include   -v CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5cb15 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'cmTC_5cb15' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrCbUVi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5cb15 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'cmTC_5cb15' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/root/apple-libtapi/build/../src/llvm/projects/clang/include]
+    add: [/usr/include/c++/10]
+    add: [/usr/include/x86_64-linux-gnu/c++/10]
+    add: [/usr/include/c++/10/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/root/apple-libtapi/build/../src/llvm/projects/clang/include] ==> [/root/apple-libtapi/src/llvm/projects/clang/include]
+  collapse include dir [/usr/include/c++/10] ==> [/usr/include/c++/10]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/10] ==> [/usr/include/x86_64-linux-gnu/c++/10]
+  collapse include dir [/usr/include/c++/10/backward] ==> [/usr/include/c++/10/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/root/apple-libtapi/src/llvm/projects/clang/include;/usr/include/c++/10;/usr/include/x86_64-linux-gnu/c++/10;/usr/include/c++/10/backward;/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_5cb15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5cb15.dir/build.make CMakeFiles/cmTC_5cb15.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include    -v -o CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -o /tmp/cccCjBHS.s]
+  ignore line: [GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/root/apple-libtapi/build/projects/clang/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /root/apple-libtapi/build/../src/llvm/projects/clang/include]
+  ignore line: [ /usr/include/c++/10]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/10]
+  ignore line: [ /usr/include/c++/10/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Debian 10.2.1-6) version 10.2.1 20210110 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20210110  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 048fcaee3460a99eb0d68522358720e1]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include --64 -o CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o /tmp/cccCjBHS.s]
+  ignore line: [GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_5cb15]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cb15.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include   -v CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5cb15 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20210110 (Debian 10.2.1-6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/root/apple-libtapi/build/../src/llvm/projects/clang/include' '-I' '/root/apple-libtapi/build/projects/clang/include' '-v' '-o' 'cmTC_5cb15' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrCbUVi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5cb15 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrCbUVi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5cb15] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+    arg [CMakeFiles/cmTC_5cb15.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7dbfd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7dbfd.dir/build.make CMakeFiles/cmTC_7dbfd.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7dbfd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7dbfd.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7dbfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dbfd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7dbfd.dir/CheckIncludeFile.c.o -o cmTC_7dbfd  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9f037/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f037.dir/build.make CMakeFiles/cmTC_9f037.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f037.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9f037.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9f037
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f037.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9f037.dir/CheckIncludeFile.c.o -o cmTC_9f037  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_770c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_770c8.dir/build.make CMakeFiles/cmTC_770c8.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_770c8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_770c8.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_770c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770c8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_770c8.dir/CheckIncludeFile.c.o -o cmTC_770c8  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9d625/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d625.dir/build.make CMakeFiles/cmTC_9d625.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d625.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9d625.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9d625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d625.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9d625.dir/CheckIncludeFile.c.o -o cmTC_9d625  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b868/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b868.dir/build.make CMakeFiles/cmTC_6b868.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b868.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6b868.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6b868
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b868.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6b868.dir/CheckIncludeFile.c.o -o cmTC_6b868  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e40c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e40c5.dir/build.make CMakeFiles/cmTC_e40c5.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e40c5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e40c5.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e40c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e40c5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e40c5.dir/CheckIncludeFile.c.o -o cmTC_e40c5  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a9407/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9407.dir/build.make CMakeFiles/cmTC_a9407.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9407.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a9407.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a9407
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9407.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a9407.dir/CheckIncludeFile.c.o -o cmTC_a9407  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_feffd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_feffd.dir/build.make CMakeFiles/cmTC_feffd.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feffd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_feffd.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_feffd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feffd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_feffd.dir/CheckIncludeFile.c.o -o cmTC_feffd  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dc7be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc7be.dir/build.make CMakeFiles/cmTC_dc7be.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc7be.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dc7be.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc7be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc7be.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dc7be.dir/CheckIncludeFile.c.o -o cmTC_dc7be  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1c78f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c78f.dir/build.make CMakeFiles/cmTC_1c78f.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c78f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1c78f.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1c78f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c78f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1c78f.dir/CheckIncludeFile.c.o -o cmTC_1c78f  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_32eca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32eca.dir/build.make CMakeFiles/cmTC_32eca.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32eca.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_32eca.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_32eca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32eca.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_32eca.dir/CheckIncludeFile.c.o -o cmTC_32eca  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ae91b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae91b.dir/build.make CMakeFiles/cmTC_ae91b.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae91b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ae91b.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ae91b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae91b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ae91b.dir/CheckIncludeFile.c.o -o cmTC_ae91b  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_debd5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_debd5.dir/build.make CMakeFiles/cmTC_debd5.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_debd5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_debd5.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_debd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_debd5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_debd5.dir/CheckIncludeFile.c.o -o cmTC_debd5  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5d59c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d59c.dir/build.make CMakeFiles/cmTC_5d59c.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d59c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d59c.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5d59c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d59c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5d59c.dir/CheckIncludeFile.c.o -o cmTC_5d59c  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_712df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_712df.dir/build.make CMakeFiles/cmTC_712df.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_712df.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_712df.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_712df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_712df.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_712df.dir/CheckIncludeFile.c.o -o cmTC_712df  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d8137/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8137.dir/build.make CMakeFiles/cmTC_d8137.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8137.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8137.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8137.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d8137.dir/CheckIncludeFile.c.o -o cmTC_d8137  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_57d58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57d58.dir/build.make CMakeFiles/cmTC_57d58.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57d58.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_57d58.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_57d58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57d58.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_57d58.dir/CheckIncludeFile.c.o -o cmTC_57d58  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_77fd0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77fd0.dir/build.make CMakeFiles/cmTC_77fd0.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77fd0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_77fd0.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_77fd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77fd0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_77fd0.dir/CheckIncludeFile.c.o -o cmTC_77fd0  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a9bfe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9bfe.dir/build.make CMakeFiles/cmTC_a9bfe.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9bfe.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a9bfe.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a9bfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9bfe.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a9bfe.dir/CheckSymbolExists.c.o -o cmTC_a9bfe  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_de9fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de9fe.dir/build.make CMakeFiles/cmTC_de9fe.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de9fe.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_de9fe.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_de9fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de9fe.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_de9fe.dir/CheckSymbolExists.c.o -o cmTC_de9fe  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dff58/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dff58.dir/build.make CMakeFiles/cmTC_dff58.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dff58.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dff58.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dff58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dff58.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dff58.dir/CheckIncludeFile.c.o -o cmTC_dff58  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5f110/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f110.dir/build.make CMakeFiles/cmTC_5f110.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f110.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5f110.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f110.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_5f110.dir/CheckFunctionExists.c.o -o cmTC_5f110  -lpthread -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1ef8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ef8a.dir/build.make CMakeFiles/cmTC_1ef8a.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ef8a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific -o CMakeFiles/cmTC_1ef8a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ef8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ef8a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific CMakeFiles/cmTC_1ef8a.dir/CheckFunctionExists.c.o -o cmTC_1ef8a  -lpthread -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e5cc2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5cc2.dir/build.make CMakeFiles/cmTC_e5cc2.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5cc2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -o CMakeFiles/cmTC_e5cc2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e5cc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5cc2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init CMakeFiles/cmTC_e5cc2.dir/CheckFunctionExists.c.o -o cmTC_e5cc2  -lpthread -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9e721/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e721.dir/build.make CMakeFiles/cmTC_9e721.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e721.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -o CMakeFiles/cmTC_9e721.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9e721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e721.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock CMakeFiles/cmTC_9e721.dir/CheckFunctionExists.c.o -o cmTC_9e721  -lpthread -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ae395/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae395.dir/build.make CMakeFiles/cmTC_ae395.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae395.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles/cmTC_ae395.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae395
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae395.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen CMakeFiles/cmTC_ae395.dir/CheckFunctionExists.c.o -o cmTC_ae395  -ldl -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6daf3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6daf3.dir/build.make CMakeFiles/cmTC_6daf3.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6daf3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_6daf3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6daf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6daf3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_6daf3.dir/CheckFunctionExists.c.o -o cmTC_6daf3  -lrt -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fa6e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa6e4.dir/build.make CMakeFiles/cmTC_fa6e4.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa6e4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fa6e4.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa6e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa6e4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fa6e4.dir/CheckIncludeFile.c.o -o cmTC_fa6e4  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_74a33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74a33.dir/build.make CMakeFiles/cmTC_74a33.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74a33.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_74a33.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74a33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74a33.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_74a33.dir/CheckFunctionExists.c.o -o cmTC_74a33  -lpthread -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3f982/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f982.dir/build.make CMakeFiles/cmTC_3f982.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f982.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2 -o CMakeFiles/cmTC_3f982.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3f982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f982.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2 CMakeFiles/cmTC_3f982.dir/CheckFunctionExists.c.o -o cmTC_3f982  -lz -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_89759/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89759.dir/build.make CMakeFiles/cmTC_89759.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89759.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -o CMakeFiles/cmTC_89759.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89759.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm CMakeFiles/cmTC_89759.dir/CheckFunctionExists.c.o -o cmTC_89759  -ltinfo -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_504e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_504e1.dir/build.make CMakeFiles/cmTC_504e1.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_504e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_504e1.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_504e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_504e1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_504e1.dir/CheckSymbolExists.c.o -o cmTC_504e1 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2e8f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e8f0.dir/build.make CMakeFiles/cmTC_2e8f0.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e8f0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2e8f0.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2e8f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e8f0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2e8f0.dir/CheckSymbolExists.c.o -o cmTC_2e8f0  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ea43e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea43e.dir/build.make CMakeFiles/cmTC_ea43e.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea43e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ea43e.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ea43e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea43e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ea43e.dir/CheckSymbolExists.c.o -o cmTC_ea43e  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e103c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e103c.dir/build.make CMakeFiles/cmTC_e103c.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e103c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e103c.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e103c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e103c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e103c.dir/CheckSymbolExists.c.o -o cmTC_e103c  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_95f69/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95f69.dir/build.make CMakeFiles/cmTC_95f69.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95f69.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_95f69.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_95f69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95f69.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_95f69.dir/CheckSymbolExists.c.o -o cmTC_95f69  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_66407/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66407.dir/build.make CMakeFiles/cmTC_66407.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66407.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_66407.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_66407
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66407.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_66407.dir/CheckSymbolExists.c.o -o cmTC_66407  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d076b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d076b.dir/build.make CMakeFiles/cmTC_d076b.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d076b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d076b.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d076b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d076b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d076b.dir/CheckSymbolExists.c.o -o cmTC_d076b  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b8e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b8e1.dir/build.make CMakeFiles/cmTC_6b8e1.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b8e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6b8e1.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6b8e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b8e1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6b8e1.dir/CheckSymbolExists.c.o -o cmTC_6b8e1  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bc819/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc819.dir/build.make CMakeFiles/cmTC_bc819.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc819.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bc819.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bc819
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc819.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bc819.dir/CheckSymbolExists.c.o -o cmTC_bc819  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b705e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b705e.dir/build.make CMakeFiles/cmTC_b705e.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b705e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b705e.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b705e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b705e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b705e.dir/CheckSymbolExists.c.o -o cmTC_b705e  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_3ae7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ae7d.dir/build.make CMakeFiles/cmTC_3ae7d.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ae7d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3ae7d.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3ae7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae7d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3ae7d.dir/CheckSymbolExists.c.o -o cmTC_3ae7d  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f3d9c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f3d9c.dir/build.make CMakeFiles/cmTC_f3d9c.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3d9c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE   -o CMakeFiles/cmTC_f3d9c.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f3d9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3d9c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f3d9c.dir/CheckSymbolExists.c.o -o cmTC_f3d9c  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7eda9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7eda9.dir/build.make CMakeFiles/cmTC_7eda9.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7eda9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7eda9.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7eda9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eda9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7eda9.dir/CheckSymbolExists.c.o -o cmTC_7eda9  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cc5b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc5b7.dir/build.make CMakeFiles/cmTC_cc5b7.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc5b7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cc5b7.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cc5b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc5b7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cc5b7.dir/CheckSymbolExists.c.o -o cmTC_cc5b7  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_206e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_206e3.dir/build.make CMakeFiles/cmTC_206e3.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_206e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_206e3.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_206e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_206e3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_206e3.dir/CheckSymbolExists.c.o -o cmTC_206e3  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b2200/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2200.dir/build.make CMakeFiles/cmTC_b2200.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2200.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b2200.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b2200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2200.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b2200.dir/CheckSymbolExists.c.o -o cmTC_b2200  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4730a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4730a.dir/build.make CMakeFiles/cmTC_4730a.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4730a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4730a.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4730a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4730a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4730a.dir/CheckSymbolExists.c.o -o cmTC_4730a  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_732bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_732bc.dir/build.make CMakeFiles/cmTC_732bc.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_732bc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_732bc.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_732bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_732bc.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_732bc.dir/CheckSymbolExists.c.o -o cmTC_732bc  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ae58e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae58e.dir/build.make CMakeFiles/cmTC_ae58e.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae58e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ae58e.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ae58e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae58e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ae58e.dir/CheckSymbolExists.c.o -o cmTC_ae58e  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_07ca0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07ca0.dir/build.make CMakeFiles/cmTC_07ca0.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07ca0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_07ca0.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07ca0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07ca0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_07ca0.dir/CheckSymbolExists.c.o -o cmTC_07ca0  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_293f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_293f7.dir/build.make CMakeFiles/cmTC_293f7.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_293f7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_293f7.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_293f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_293f7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_293f7.dir/CheckSymbolExists.c.o -o cmTC_293f7  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d794d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d794d.dir/build.make CMakeFiles/cmTC_d794d.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d794d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d794d.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d794d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d794d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d794d.dir/CheckSymbolExists.c.o -o cmTC_d794d  -lm -ldl 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e3544/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3544.dir/build.make CMakeFiles/cmTC_e3544.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3544.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC -o CMakeFiles/cmTC_e3544.dir/src.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3544.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC CMakeFiles/cmTC_e3544.dir/src.c.o -o cmTC_e3544  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_05b7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05b7b.dir/build.make CMakeFiles/cmTC_05b7b.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05b7b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_05b7b.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_05b7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05b7b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_05b7b.dir/CheckSymbolExists.c.o -o cmTC_05b7b  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sched_getaffinity exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_57ae0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57ae0.dir/build.make CMakeFiles/cmTC_57ae0.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57ae0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_57ae0.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_57ae0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57ae0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_57ae0.dir/CheckSymbolExists.c.o -o cmTC_57ae0  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sched_getaffinity
+  return ((int*)(&sched_getaffinity))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CPU_COUNT exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_08567/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08567.dir/build.make CMakeFiles/cmTC_08567.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08567.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_08567.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_08567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08567.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_08567.dir/CheckSymbolExists.c.o -o cmTC_08567  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CPU_COUNT
+  return ((int*)(&CPU_COUNT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9e5d5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e5d5.dir/build.make CMakeFiles/cmTC_9e5d5.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e5d5.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_9e5d5.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9e5d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e5d5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9e5d5.dir/CheckSymbolExists.c.o -o cmTC_9e5d5  -lm -lpthread 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_251a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_251a2.dir/build.make CMakeFiles/cmTC_251a2.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_251a2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_251a2.dir/CheckSymbolExists.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_251a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_251a2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_251a2.dir/CheckSymbolExists.c.o -o cmTC_251a2  -lm -lpthread 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+File /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_03da4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03da4.dir/build.make CMakeFiles/cmTC_03da4.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_03da4.dir/src.cxx.o
+/usr/bin/c++ -D_GNU_SOURCE  -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11 -o CMakeFiles/cmTC_03da4.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03da4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03da4.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11 CMakeFiles/cmTC_03da4.dir/src.cxx.o -o cmTC_03da4  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8c8c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c8c5.dir/build.make CMakeFiles/cmTC_8c8c5.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c8c5.dir/src.cxx.o
+/usr/bin/c++ -D_GNU_SOURCE  -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11 -o CMakeFiles/cmTC_8c8c5.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8c8c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c8c5.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11 CMakeFiles/cmTC_8c8c5.dir/src.cxx.o -o cmTC_8c8c5  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6104c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6104c.dir/build.make CMakeFiles/cmTC_6104c.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6104c.dir/src.cxx.o
+/usr/bin/c++ -D_GNU_SOURCE  -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DLLVM_HAS_ATOMICS -o CMakeFiles/cmTC_6104c.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6104c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6104c.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DLLVM_HAS_ATOMICS CMakeFiles/cmTC_6104c.dir/src.cxx.o -o cmTC_6104c  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6b3df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b3df.dir/build.make CMakeFiles/cmTC_6b3df.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6b3df.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DSUPPORTS_VARIADIC_MACROS_FLAG   -Wvariadic-macros -o CMakeFiles/cmTC_6b3df.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6b3df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b3df.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DSUPPORTS_VARIADIC_MACROS_FLAG CMakeFiles/cmTC_6b3df.dir/src.cxx.o -o cmTC_6b3df  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a265f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a265f.dir/build.make CMakeFiles/cmTC_a265f.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a265f.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DHAS_MAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTC_a265f.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a265f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a265f.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DHAS_MAYBE_UNINITIALIZED CMakeFiles/cmTC_a265f.dir/src.cxx.o -o cmTC_a265f  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d9f26/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9f26.dir/build.make CMakeFiles/cmTC_d9f26.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9f26.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_d9f26.dir/src.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d9f26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9f26.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_SUPPORTS_FPIC CMakeFiles/cmTC_d9f26.dir/src.c.o -o cmTC_d9f26  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d8a64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8a64.dir/build.make CMakeFiles/cmTC_d8a64.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8a64.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_d8a64.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d8a64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a64.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -DCXX_SUPPORTS_FPIC CMakeFiles/cmTC_d8a64.dir/src.cxx.o -o cmTC_d8a64  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5f6bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f6bf.dir/build.make CMakeFiles/cmTC_5f6bf.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f6bf.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_5f6bf.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5f6bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f6bf.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG CMakeFiles/cmTC_5f6bf.dir/src.cxx.o -o cmTC_5f6bf  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_be62a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be62a.dir/build.make CMakeFiles/cmTC_be62a.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be62a.dir/src.c.o
+/usr/bin/cc   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_be62a.dir/src.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_be62a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be62a.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DC_SUPPORTS_WERROR_DATE_TIME CMakeFiles/cmTC_be62a.dir/src.c.o -o cmTC_be62a  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d7ff7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7ff7.dir/build.make CMakeFiles/cmTC_d7ff7.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7ff7.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_d7ff7.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d7ff7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7ff7.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME CMakeFiles/cmTC_d7ff7.dir/src.cxx.o -o cmTC_d7ff7  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9eb2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9eb2f.dir/build.make CMakeFiles/cmTC_9eb2f.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9eb2f.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_9eb2f.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9eb2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eb2f.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_CXX11 CMakeFiles/cmTC_9eb2f.dir/src.cxx.o -o cmTC_9eb2f  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a01b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a01b0.dir/build.make CMakeFiles/cmTC_a01b0.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a01b0.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG   -Wmissing-field-initializers -o CMakeFiles/cmTC_a01b0.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a01b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a01b0.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG CMakeFiles/cmTC_a01b0.dir/src.cxx.o -o cmTC_a01b0  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5363b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5363b.dir/build.make CMakeFiles/cmTC_5363b.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5363b.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG   -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_5363b.dir/src.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5363b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5363b.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG CMakeFiles/cmTC_5363b.dir/src.c.o -o cmTC_5363b  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b6210/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6210.dir/build.make CMakeFiles/cmTC_b6210.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6210.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG   -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_b6210.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6210.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG CMakeFiles/cmTC_b6210.dir/src.cxx.o -o cmTC_b6210  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e4828/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4828.dir/build.make CMakeFiles/cmTC_e4828.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4828.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG   -Wclass-memaccess -o CMakeFiles/cmTC_e4828.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e4828
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4828.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG CMakeFiles/cmTC_e4828.dir/src.cxx.o -o cmTC_e4828  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_377e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_377e8.dir/build.make CMakeFiles/cmTC_377e8.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_377e8.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG   -Wnoexcept-type -o CMakeFiles/cmTC_377e8.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_377e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377e8.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG CMakeFiles/cmTC_377e8.dir/src.cxx.o -o cmTC_377e8  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5e5a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e5a9.dir/build.make CMakeFiles/cmTC_5e5a9.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e5a9.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_5e5a9.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e5a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e5a9.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG CMakeFiles/cmTC_5e5a9.dir/src.cxx.o -o cmTC_5e5a9  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_62255/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62255.dir/build.make CMakeFiles/cmTC_62255.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62255.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS   -Werror -fno-function-sections -o CMakeFiles/cmTC_62255.dir/src.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_62255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62255.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS CMakeFiles/cmTC_62255.dir/src.c.o -o cmTC_62255  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2e4af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e4af.dir/build.make CMakeFiles/cmTC_2e4af.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e4af.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_2e4af.dir/src.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2e4af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e4af.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS CMakeFiles/cmTC_2e4af.dir/src.c.o -o cmTC_2e4af  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c8935/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c8935.dir/build.make CMakeFiles/cmTC_c8935.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8935.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -DCXX_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_c8935.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8935.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -DCXX_SUPPORTS_FFUNCTION_SECTIONS CMakeFiles/cmTC_c8935.dir/src.cxx.o -o cmTC_c8935  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5d5d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d5d7.dir/build.make CMakeFiles/cmTC_5d5d7.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d5d7.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_5d5d7.dir/src.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d5d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d5d7.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS CMakeFiles/cmTC_5d5d7.dir/src.c.o -o cmTC_5d5d7  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_56fd0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56fd0.dir/build.make CMakeFiles/cmTC_56fd0.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56fd0.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_56fd0.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_56fd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56fd0.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS CMakeFiles/cmTC_56fd0.dir/src.cxx.o -o cmTC_56fd0  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_496af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_496af.dir/build.make CMakeFiles/cmTC_496af.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_496af.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_496af.dir/CheckIncludeFile.c.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_496af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_496af.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_496af.dir/CheckIncludeFile.c.o -o cmTC_496af  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6412e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6412e.dir/build.make CMakeFiles/cmTC_6412e.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6412e.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_6412e.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6412e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6412e.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_6412e.dir/src.cxx.o -o cmTC_6412e  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b5a4a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5a4a.dir/build.make CMakeFiles/cmTC_b5a4a.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5a4a.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_b5a4a.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b5a4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5a4a.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_b5a4a.dir/src.cxx.o -o cmTC_b5a4a  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b186e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b186e.dir/build.make CMakeFiles/cmTC_b186e.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b186e.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_b186e.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b186e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b186e.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_b186e.dir/src.cxx.o -o cmTC_b186e  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c00e6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c00e6.dir/build.make CMakeFiles/cmTC_c00e6.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c00e6.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_c00e6.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c00e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c00e6.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_c00e6.dir/src.cxx.o -o cmTC_c00e6  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_89cd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89cd4.dir/build.make CMakeFiles/cmTC_89cd4.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89cd4.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -o CMakeFiles/cmTC_89cd4.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_89cd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89cd4.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_89cd4.dir/src.cxx.o -o cmTC_89cd4  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_44c5a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_44c5a.dir/build.make CMakeFiles/cmTC_44c5a.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44c5a.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_44c5a.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_44c5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44c5a.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_44c5a.dir/src.cxx.o -o cmTC_44c5a  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5a595/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a595.dir/build.make CMakeFiles/cmTC_5a595.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a595.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTC_5a595.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5a595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a595.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_5a595.dir/src.cxx.o -o cmTC_5a595  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c8dfd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c8dfd.dir/build.make CMakeFiles/cmTC_c8dfd.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8dfd.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_c8dfd.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8dfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8dfd.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_c8dfd.dir/src.cxx.o -o cmTC_c8dfd  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_efebc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_efebc.dir/build.make CMakeFiles/cmTC_efebc.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efebc.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -o CMakeFiles/cmTC_efebc.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_efebc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efebc.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_efebc.dir/src.cxx.o -o cmTC_efebc  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d7268/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7268.dir/build.make CMakeFiles/cmTC_d7268.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7268.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_d7268.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d7268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7268.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_d7268.dir/src.cxx.o -o cmTC_d7268  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /root/apple-libtapi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f96c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f96c0.dir/build.make CMakeFiles/cmTC_f96c0.dir/build
+gmake[1]: Entering directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f96c0.dir/src.cxx.o
+/usr/bin/c++   -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_f96c0.dir/src.cxx.o -c /root/apple-libtapi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f96c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f96c0.dir/link.txt --verbose=1
+/usr/bin/c++ -I /root/apple-libtapi/build/../src/llvm/projects/clang/include -I /root/apple-libtapi/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage  -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_f96c0.dir/src.cxx.o -o cmTC_f96c0  -lm 
+gmake[1]: Leaving directory '/root/apple-libtapi/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

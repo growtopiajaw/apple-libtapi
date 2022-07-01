@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libclangIndexDataStore.a CMakeFiles/clangIndexDataStore.dir/IndexDataStore.cpp.o
+/usr/bin/ranlib ../../../../lib/libclangIndexDataStore.a

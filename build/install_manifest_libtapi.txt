@@ -1,0 +1,2 @@
+/root/tmp/lib/libtapi.so.8svn
+/root/tmp/lib/libtapi.so

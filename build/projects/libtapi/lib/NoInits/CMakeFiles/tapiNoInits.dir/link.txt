@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libtapiNoInits.a CMakeFiles/tapiNoInits.dir/CrashRecoveryContext.cpp.o CMakeFiles/tapiNoInits.dir/Debug.cpp.o CMakeFiles/tapiNoInits.dir/ErrorHandling.cpp.o CMakeFiles/tapiNoInits.dir/Signals.cpp.o CMakeFiles/tapiNoInits.dir/WithColor.cpp.o
+/usr/bin/ranlib ../../../../lib/libtapiNoInits.a
